@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-container">
+        <button id="reset-button"><span>RESET</span></button>
+        <button id="default-button"><span>DEFAULT</span></button>
+        <button id="random-button"><span>RANDOM</span></button>
+        <button id="pick-color-button"><span>PICK A COLOR</span></button>
+    </div>
+    
+    <div class="main-container">
+        <div class="adjuster">
+            <span>Adjust Grid Size:</span>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="slider-adjuster">
+            </div>
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
